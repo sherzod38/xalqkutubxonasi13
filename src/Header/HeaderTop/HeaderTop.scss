@@ -1,0 +1,25 @@
+.header {
+    border-bottom: 1px solid #EFEFEF;
+    padding: 12px 0;
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    &-left {
+      display: flex;
+    }
+    &-right {
+      display: flex;
+      &-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1b1b1b;
+        opacity: 0.6;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.language {
+  margin-right: 40px;
+  &-lotin {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1b1b1b;
+    opacity: 0.6;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &-span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1b1b1b;
+    opacity: 0.6;
+  }
+  &-kiril {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1b1b1b;
+    opacity: 0.6;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.active {
+    opacity: 1;
+    font-weight: 700;
+}
+

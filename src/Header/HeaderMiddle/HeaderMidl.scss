@@ -1,0 +1,22 @@
+.header-middle {
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      padding: 28px 0;
+    }
+    &-navbar {
+      &-link {
+        margin-left: 40px;
+        font-family: 'Montserrat';
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1b1b1b;
+      }
+    }
+  }
+}

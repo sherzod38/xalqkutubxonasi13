@@ -1,0 +1,79 @@
+.header-bottom {
+  background-color: #e5e5e5;
+  padding: 25px 0 30px 0;
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-block {
+      position: relative;
+      max-width: 750px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      &-label {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        border-radius: 4px;
+        &-input {
+          border: none;
+          outline: none;
+          width: 85%;
+          font-size: 14px;
+          border-radius: 4px;
+          position: absolute;
+          padding: 17px 75px 16px 20px;
+        }
+      }
+      &-button {
+        position: absolute;
+        top: -21px;
+        right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        outline: none;
+        padding: 10px 9px 10px 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        background: transparent;
+        z-index: 1;
+        transition: all 0.3s ease;
+        &::before {
+          position: absolute;
+          top: 14px;
+          right: 57px;
+          width: 1px;
+          height: 15px;
+          background: #222;
+          content: '';
+        }
+        &:hover {
+          background: rgba(0,0,0,0.2);
+        }
+        svg {
+          margin-right: 2px;
+        }
+      }
+    }
+
+    &-select {
+      width: 230px;
+      height: 50px;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+      &-option {
+        height: 41px;
+        width: 210px;
+        padding: 15px 0;
+        &:hover {
+            background-color: #1A866C;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.book-card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.book-card-link {
+  text-decoration: none;
+}
+
+.book-card {
+  width: 220px;
+  height: 388px;
+  &-img {
+    width: 220px;
+    height: 280px;
+    border-radius: 5px;
+    // object-fit: contain;
+    margin-bottom: 5px;
+  }
+  &-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 2px;
+  }
+  &-authors {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1b1b1b;
+    opacity: 0.6;
+  }
+  &-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    &-views {
+      margin-right: 5px;
+      height: 14px;
+    }
+    &-vote_count {
+      margin-right: 15px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: #1b1b1b;
+      opacity: 0.5;
+    }
+    &-like {
+      margin-right: 5px;
+    }
+    &-vote_avarage {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: #1b1b1b;
+      opacity: 0.5;
+    }
+  }
+}
